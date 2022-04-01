@@ -68,6 +68,9 @@ instance/
 # Scrapy stuff:
 .scrapy
 
+# Ignore the config.js file.
+config.js
+
 # Sphinx documentation
 docs/_build/
 
