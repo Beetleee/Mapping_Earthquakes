@@ -33,7 +33,7 @@ L.control.layers(baseMaps).addTo(map);
 
 // Accessing the airport GeoJSON URL
 let torontoHoods = "https://raw.githubusercontent.com/Beetleee/Mapping_Earthquakes/main/torontoNeighborhoods.json";
-//let airportData = "https://github.com/Beetleee/Mapping_Earthquakes/blob/main/majorAirports.json";
+//let airportData = "https://github.com/Beetleee/Mapping_Earthquakes/blob/main/torontoNeighborhoods.json";
 
 
 // // Accessing the airport GeoJSON URL
