@@ -3,6 +3,8 @@ console.log("working");
 
 // Create the map object with center at the San Francisco airport.
 let map = L.map('mapid').setView([37.6213, -122.3790], 5);
+// Add console.log to check to see if our code is working.
+console.log("working");
 
 // Coordinates for each point to be used in the line.
 let line = [
@@ -16,7 +18,6 @@ let line = [
 L.polyline(line, {
     color: "yellow"
   }).addTo(map);
-  
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
