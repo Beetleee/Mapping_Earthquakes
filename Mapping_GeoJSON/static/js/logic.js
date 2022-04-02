@@ -5,8 +5,6 @@ console.log("working");
 let map = L.map('mapid').setView([30, 30], 2);
 
 
-
-
 // // Add GeoJSON data.
 // let sanFranAirport =
 // {"type":"FeatureCollection","features":[{
@@ -57,7 +55,8 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 streets.addTo(map);
 
 // Accessing the airport GeoJSON URL
-let airportData = "https://raw.githubusercontent.com/<GitHub_name>/Mapping_Earthquakes/main/majorAirports.json";
+let airportData = "https://raw.githubusercontent.com/Beetleee/Mapping_Earthquakes/main/majorAirports.json";
+//let airportData = "https://github.com/Beetleee/Mapping_Earthquakes/blob/main/majorAirports.json";
 
 // Grabbing our GeoJSON data.
 d3.json(airportData).then(function(data) {
